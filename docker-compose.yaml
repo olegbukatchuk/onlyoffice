@@ -68,8 +68,8 @@ services:
     networks:
      - onlyoffice
     ports:
-      - '2026:80'
-      - '2027:443'
+      - '80:80'
+      - '443:443'
       - '1936:1936'
 
   onlyoffice-redis:
